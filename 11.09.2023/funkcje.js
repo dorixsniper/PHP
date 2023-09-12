@@ -25,16 +25,37 @@ console.log(calculateSupply(19,2));
 
 function calcCirumfrence(radius)
 {
-    let pi=3.14;
-    console.log(`The circumference is ${2*radius*pi}`);
+    console.log(`The circumference is ${3.14*radius}`);
 }
 
 console.log(calcCirumfrence(4));
 
 
-function calcArea(r)
+function calcArea(radius)
 {
-    let pi=3.14;
-    console.log(`The area is ${pi*2*r}`);
+    console.log(`The area is ${radius**2*3.14}`);
 }
 console.log(calcArea(1));
+
+
+function celsiusToFahreheit(s)
+{
+    console.log(`${s}°C is ${(9/5*s)+32}`)
+}
+
+console.log(celsiusToFahreheit(5));
+
+
+function fahrenheitToCelsius(f)
+{
+  console.log(`${f}°F is ${(f-32)*5/9 }°C.`)  
+}
+
+console.log(fahrenheitToCelsius(64));
+
+function reverseNum(number)
+{
+    return  1/number;
+}
+
+console.log(reverseNum(2));
