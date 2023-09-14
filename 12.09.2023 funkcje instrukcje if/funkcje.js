@@ -113,3 +113,37 @@ function payMin(a,b,c)
 }
 
 console.log(pay(3,5,2));
+
+
+function isOdd(number){
+    return number%2!=0;
+}
+console.log(isOdd(5));
+
+
+function isDivided(a,b)
+{
+    return a%b==0;
+}
+console.log(isDivided(5));
+
+
+function isLeapYear(year)
+{
+    return isDivided(year,4) && !isDivided(year,100) || isDivided(year,400)
+}
+
+console.log(isLeapYear(2022));
+console.log(isLeapYear(2020));
+
+function halfOf(number){
+    return number/2;
+}
+console.log(halfOf(2));
+console.log(halfOf(2137));
+
+
+function IsLongerThan(text,number){
+    return text.lenght>number;
+}
+console.log(IsLongerThan(`SOS`,2))
