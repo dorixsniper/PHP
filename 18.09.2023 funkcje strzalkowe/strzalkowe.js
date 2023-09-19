@@ -50,3 +50,4 @@ console.log(kwadrat(5));
 
 const kwadrat2= a =>  a*a;
 console.log(kwadrat2(15));
+
