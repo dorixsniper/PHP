@@ -28,3 +28,23 @@ function monkey(a){
 }
 monkey(`rkmg r`);
 monkey(`rkmg@`);
+
+
+
+function firstFive(text){
+    return text.substr(0,5)
+
+}
+console.log(firstFive("BłazejWojtasJestSpecjalntyNaSwojSposob"));
+
+
+function lastFive(text){
+    return  text.substring(text.length-5)
+
+}
+
+console.log(lastFive("BłazejWojtasJestSpecjalntyNaSwojSposob"));
+
+function midFive(text){
+    return text.slice(text.length/2)
+}
