@@ -48,3 +48,4 @@ console.log(lastFive("BłazejWojtasJestSpecjalntyNaSwojSposob"));
 function midFive(text){
     return text.slice(text.length/2)
 }
+
